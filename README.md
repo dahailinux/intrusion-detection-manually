@@ -64,8 +64,10 @@ vim /etc/bashrc
 /etc/init.d	查看是否有恶意脚本
 ls /tmp	这里是高权限目录
 cron日志，看自动任务都有什么	
+
 /var/spool/cron/* 	看一下目录是否也有恶意脚本
 /etc/crontab	
+
 /etc/cron.d/*	
 /etc/cron.daily/* 	
 /etc/cron.hourly/* 	
@@ -73,6 +75,7 @@ cron日志，看自动任务都有什么
 /etc/cron.weekly/	
 /etc/anacrontab	
 /var/spool/anacron/*	
+
 more /etc/cron.daily/*	查看目录下所有文件
 扫描webshell	
 看php的代码文件是否被修改过	
